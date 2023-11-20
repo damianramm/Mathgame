@@ -7,10 +7,7 @@ namespace MyFirstProgram
     internal class GameEngine
     {
 
-        public int firstNumber { get; set; }
-        public int secondNumber { get; set; }
-
-        internal static void AdditionGame(string message)
+    internal static void AdditionGame(string message)
         {
 
             int firstNumber;
@@ -18,8 +15,6 @@ namespace MyFirstProgram
             var random = new Random();
             
             var score = 0;
-
-            //Helpers.SelectDifficult(GameEngine.AdditionGame);
 
             for (int i = 0; i < 5; i++)
             {
